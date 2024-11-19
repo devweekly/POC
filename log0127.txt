@@ -1,0 +1,30 @@
+---- ladderLength begin, current level is 1 --- 
+-------- whileloop begin, level: 1, queue front: hit
+---------- currentWord forloop begin: index 0, currentWord is hit
+---------- currentWord forloop begin: index 1, currentWord is hit
+-------------- find tempWord in dictionary: level is 2, tempWord: hot, currentWord: hit
+---------- currentWord forloop begin: index 2, currentWord is hit
+---------- currentWord forloop finished: currentWord: hit, can NOT find more, will switch back to queue front ---------- 
+-------- whileloop begin, level: 2, queue front: hot
+---------- currentWord forloop begin: index 0, currentWord is hot
+-------------- find tempWord in dictionary: level is 3, tempWord: dot, currentWord: hot
+-------------- find tempWord in dictionary: level is 3, tempWord: lot, currentWord: hot
+---------- currentWord forloop begin: index 1, currentWord is hot
+---------- currentWord forloop begin: index 2, currentWord is hot
+---------- currentWord forloop finished: currentWord: hot, can NOT find more, will switch back to queue front ---------- 
+-------- whileloop begin, level: 3, queue front: dot
+---------- currentWord forloop begin: index 0, currentWord is dot
+---------- currentWord forloop begin: index 1, currentWord is dot
+---------- currentWord forloop begin: index 2, currentWord is dot
+-------------- find tempWord in dictionary: level is 4, tempWord: dog, currentWord: dot
+---------- currentWord forloop finished: currentWord: dot, can NOT find more, will switch back to queue front ---------- 
+-------- whileloop begin, level: 3, queue front: lot
+---------- currentWord forloop begin: index 0, currentWord is lot
+---------- currentWord forloop begin: index 1, currentWord is lot
+---------- currentWord forloop begin: index 2, currentWord is lot
+-------------- find tempWord in dictionary: level is 4, tempWord: log, currentWord: lot
+---------- currentWord forloop finished: currentWord: lot, can NOT find more, will switch back to queue front ---------- 
+-------- whileloop begin, level: 4, queue front: dog
+---------- currentWord forloop begin: index 0, currentWord is dog
+---------------- find endWord!!! level is 5, tempWord: cog, currentWord: dog
+The shortest transformation sequence length is: 5
